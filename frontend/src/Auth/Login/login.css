@@ -1,0 +1,43 @@
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5% 40%;
+    background-color: gainsboro;
+}
+.link {
+    font-weight: 500;
+    font-size: 18px;
+    padding: 10px;
+    margin: 10px;
+}
+.signup-link {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 300;
+  }
+  
+  .signup-link a {
+    color: hsl(244, 100%, 50%); 
+    text-decoration: none;
+    font-weight: 700;
+  }
+  
+  .signup-link a:hover {
+    text-decoration: underline;
+  }
+
+  .background {
+    background-image: url("../../../public/book.jpg");
+    
+  }
+  #account {
+    color: black;
+    font-weight: 500;
+  }
+  .title {
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 5px;
+    color: rgb(36, 155, 206);
+  }

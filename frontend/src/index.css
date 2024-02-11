@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+#home {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#home:hover {
+  background-color:orange;
+}
+#btnSubmit {
+  padding-top: 5px;
+  margin-top: 20px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#footer {
+    /* background-color: #333; */
+    background-color: rgb(37, 173, 218); 
+    font-weight: 700;
+    /* color: white; */
+    color: black;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px 0;
+    margin: 0; 
+    position:relative;
+}
+
+#btnBack {
+  padding-top: 5px;
+  margin-top: 20px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  border-radius: 10px;
+  width:200px;
+  border:1px solid white;
+  font-weight: 600;
+  color: black;
+  background-color: darkgray;
+}
+#btnBack:hover {
+  background-color: rgb(12, 221, 131);
+}
+.headerName {
+  top: 50%;
+  left: 50%;
+  position: relative;
+}
+.viewBookList {
+  top: 50%;
+  left: 50%;
+  font-family:  'Arial Narrow Bold', sans-serif;
+  margin-bottom: 100px;
+}
+
+
+.moving-text-container {
+  width: 100%;
+  overflow: hidden; /* Ensure the text doesn't overflow the container */
+}
+
+.moving-text {
+  white-space: nowrap; /* Prevent text from wrapping */
+  animation: moveText 20s linear infinite; /* Adjust animation duration as needed */
+}
+
+@keyframes moveText {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-70%); /* Adjust distance as needed */
+  }
+}
+.bookListInfo {
+  top: 50%;
+  left: 50%;
+  color:blue;
+  font-weight: 700;
+  font-size: 18px;
+  margin-left: 30%;
+  padding-left: 100px;
+ 
+}
+
+.imgHover {
+  cursor: pointer;
+}
+.yelmzat {
+  top:50%;
+  left: 50%;
+  font-size: 20px;
+  color: rgb(0, 0, 255);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
